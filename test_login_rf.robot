@@ -4,7 +4,7 @@ Library     SeleniumLibrary
 Documentation       Suite description   #automated tests for scouts panel
 
 *** Variables ***
-${LOGIN URL}        https://scouts-test.futbolkolektyw.pl/en
+${LOGIN URL}        https://scouts.futbolkolektyw.pl/en/
 ${BROWSER}      Chrome
 ${SIGN IN BUTTON}       xpath=//button[@type='submit']
 ${EMAILINPUT}       xpath=//input[@name='login']
